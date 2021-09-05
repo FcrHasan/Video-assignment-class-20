@@ -1,0 +1,97 @@
+header .logo{
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    font-weight: 900;
+    transition: .6s;
+    color: #fff !important;
+}
+header .logo:hover{
+    transform: scale(1.2);
+    color: rgb(255, 187, 0) !important;
+}
+header a{
+    font-weight: 900;
+    color: #ddd !important;
+}
+header a:hover{
+    color: #fff !important;
+}
+
+/* slider section */
+
+.slider_section .carousel-item{
+    height: 90vh;
+}
+.slider_section .carousel-item img{
+    height: 100%;
+}
+.slider_section .carousel-indicators button{
+    height: 30px !important;
+    width: 30px !important;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .3s;
+}
+.slider_section .carousel-indicators button:hover{
+    background-color: rgb(35, 50, 255);
+    opacity: 1;
+}
+.slider_section .carousel-indicators button:focus{
+    background-color: rgb(4, 255, 4);
+}
+.slider_section .carousel-caption{
+    bottom: 7%;
+}
+.slider_section .carousel-control-prev{
+    width: 5% !important;
+    background-color: rgb(255, 6, 6);
+    transition: .5s;
+}
+.slider_section .carousel-control-next{
+    width: 5% !important;
+    background-color: rgb(255, 6, 6);
+}
+.slider_section .carousel-control-prev:focus{
+    background-color: rgba(6, 143, 255, 0.412);
+    transition: .5s;
+}
+.slider_section .carousel-control-next:focus{
+    width: 5% !important;
+    background-color: rgba(6, 176, 255, 0.44);
+}
+.carousel-control-next-icon{
+    transition: .5s;
+}
+.carousel-control-prev-icon{
+    transition: .5s;
+}
+.slider_section .carousel-control-next:hover .carousel-control-next-icon{
+    transform: rotate(360deg);
+}
+.slider_section .carousel-control-prev:hover .carousel-control-prev-icon{
+    transform: rotate(-360deg);
+}
+
+/* Modal Section */
+
+.modal_test .image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+.modal_test .content h1{
+    color: Red;
+}
+.modal_test .content p{
+    color: rgb(92, 92, 92);
+    text-align: justify;
+}
+.modal_test .c_1{
+    background-color: #ddd;
+    padding: 20px 0;
+}
+.modal_test .modal-dialog{
+    height: 400px !important;
+}
